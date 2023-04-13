@@ -216,3 +216,26 @@ a {
         height: 25px;
     }
 }
+
+/* Main */
+
+.container-principal{
+    display: grid;
+    grid-template-columns: 1fr 225px 387px 300px 1fr;
+    gap: 24px;
+}
+
+.coluna1{
+    grid-column: 2;
+    background-color: #2a2aae;
+}
+
+.coluna2{
+    grid-column: 3;
+    background-color: #99651a;
+}
+
+.coluna3{
+    grid-column: 4;
+    background-color: aqua;
+}
